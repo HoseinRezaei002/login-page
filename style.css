@@ -1,0 +1,20 @@
+*{border: none;}
+header{background-color: rgba(196, 196, 196, 0.226);margin: 0;}
+h1{text-align: center;}
+main{display: flex;
+flex: 1; background-color: rgba(175, 175, 175, 0.226);}
+section{margin: 10px;}
+#facebook{background-color: rgb(81, 114, 224);
+color: white;
+padding:10px 250px 10px 250px;
+border-radius: 5px;
+margin: 6px;}
+#twitter{background-color: rgb(72, 163, 238);
+color: white;
+padding:10px 273px 10px 250px;
+border-radius: 5px;
+margin: 6px;}
+#google{background-color: rgb(224, 81, 81);
+color: white;
+padding:10px 260px 10px 250px;
+border-radius: 5px;margin: 6px;}
