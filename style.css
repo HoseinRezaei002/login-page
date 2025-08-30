@@ -1,20 +1,273 @@
-*{border: none;}
-header{background-color: rgba(196, 196, 196, 0.226);margin: 0;}
-h1{text-align: center;}
-main{display: flex;
-flex: 1; background-color: rgba(175, 175, 175, 0.226);}
-section{margin: 10px;}
-#facebook{background-color: rgb(81, 114, 224);
+* {
+    border: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(175, 175, 175, 0.226);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    background-color: rgba(175, 175, 175, 0.226);
+}
+
+section {
+    margin: 10px;
+}
+
+#leftSide {
+    width: 95%;
+}
+
+#facebook {
+    background-color: rgb(81, 114, 224);
+    color: white;
+    padding: 10px 250px 10px 250px;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#facebook:hover {
+    background-color: rgb(57, 81, 160);
+}
+
+#twitter {
+    background-color: rgb(72, 163, 238);
+    color: white;
+    padding: 10px 273px 10px 250px;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    background-color: rgb(44, 104, 153);
+}
+
+#google {
+    background-color: rgb(224, 81, 81);
+    color: white;
+    padding: 10px 260px 10px 250px;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#google:hover {
+    background-color: rgb(179, 64, 64);
+}
+
+#beetwinSide span {
+    position: relative;
+    top: 58px;
+    left: -39px;
+    text-decoration: none;
+    border: 1px solid rgba(85, 85, 85, 0.781);
+    padding: 0px 4px 0px 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 200PX;
+    font-size: 22px;
+    color: black;
+    box-shadow: 1px 1px 1px rgb(206, 206, 206);
+    
+}
+
+#toPdash {
+    position: absolute;
+    top: 114px;
+    left: 737px;
+    border: 2px solid rgba(150, 150, 150, 0.781);
+     height: 70px; 
+    width: 0px;
+}
+
+#bottomDash {
+    position: absolute;
+    top: 213px;
+    left: 737px;
+    border: 2px solid rgba(150, 150, 150, 0.781);
+    height: 70px;
+    width: 0px;
+}
+
+#rightSide{
+    width: 100%;
+}
+#Username {
+    padding: 11px;
+    width: 95%;
+    border-radius: 7PX;
+    margin: 5PX;
+}
+
+#password {
+    padding: 11px;
+       width: 95%;
+    border-radius: 7PX;
+    margin: 5PX;
+}
+
+#loginButton {
+    background-color: rgb(17, 211, 137);
+    color: white;
+    padding: 15px;
+    margin-top: 5px;
+    width: 95%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background-color: rgb(12, 156, 101);
+}
+#footerOptions{display: flex;
+background-color: rgb(179, 179, 179);}
+#leftOption{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-left: 20%;
 color: white;
-padding:10px 250px 10px 250px;
-border-radius: 5px;
-margin: 6px;}
-#twitter{background-color: rgb(72, 163, 238);
+font-size: 17px;
+cursor: pointer;}
+#leftOption:hover{color: rgb(94, 94, 94);}
+#rightOption{padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-left: 40%;
 color: white;
-padding:10px 273px 10px 250px;
-border-radius: 5px;
-margin: 6px;}
-#google{background-color: rgb(224, 81, 81);
+font-size: 17px;
+cursor: pointer;}
+#rightOption:hover{color: rgb(94, 94, 94);}
+@media(max-width:700px){
+main{display: block;}
+#facebook {
+    background-color: rgb(81, 114, 224);
+    color: white;
+    padding: 10px 140px 10px 130px;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#facebook:hover {
+    background-color: rgb(57, 81, 160);
+}
+
+#twitter {
+    background-color: rgb(72, 163, 238);
+    color: white;
+    padding: 10px 140px 10px 150px;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    background-color: rgb(44, 104, 153);
+}
+
+#google {margin: 0 auto;
+    background-color: rgb(224, 81, 81);
+    color: white;
+    padding: 10px 140px 10px 140px;
+    border-radius: 5px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#google:hover {
+    background-color: rgb(179, 64, 64);
+}
+#beetwinSide span {
+    position: relative;
+    top: 0px;
+    left: 200px;
+    text-decoration: none;
+    border: 1px solid rgb(167, 167, 167);
+    padding: 0px 4px 0px 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 200PX;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 1px rgb(206, 206, 206);
+}
+
+#toPdash {
+    position: relative;
+    top: -15px;
+    left: 111px;
+    border: 2px solid rgb(146, 146, 146);
+    height: 0px;
+    width: 100px;
+
+}
+
+#bottomDash {
+   position: relative;
+    top: -19px;
+    left: 238px;
+    border: 2px solid rgb(146, 146, 146);
+    height: 0px;
+    width: 100px;
+
+}
+#Username {
+    padding: 3% 54% 3% 6%;
+    border-radius: 7PX;
+    margin: 10PX;
+}
+
+#password {
+    padding: 3% 54% 3% 6%;
+    border-radius: 7PX;
+    margin: 10PX;
+}
+
+#loginButton {
+    position: relative;
+    left: 10px;
+    background-color: rgb(17, 211, 137);
+    color: white;
+    padding: 3% 40% 3% 50%;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#loginButton:hover {
+    background-color: rgb(12, 156, 101);
+}
+#footerOptions{display: block;
+background-color: rgb(179, 179, 179);
+}
+#leftOption{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-left: 47%;
 color: white;
-padding:10px 260px 10px 250px;
-border-radius: 5px;margin: 6px;}
+font-size: 17px;
+cursor: pointer;}
+#leftOption:hover{color: rgb(94, 94, 94);}
+#rightOption{padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-left: 41%;
+color: white;
+font-size: 17px;
+cursor: pointer;}
+#rightOption:hover{color: rgb(94, 94, 94);}}
