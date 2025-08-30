@@ -5,29 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
 </head>
 
-<body> <header><h1>Login with social media ir manually</h1></header>
+<body>
+    <header>
+        <h1>Login with social media ir manually</h1>
+    </header>
     <main>
 
         <section id="leftSide">
-           
-            <button id="facebook">Login with facebook</button><br>
-            <button id="twitter">login with twitter</button><br>
-            <button id="google">login with google+</button><br>
-        </section>
-        <div id="">or</div>
-        <section id="rightSide">
-            <label for="usernam"></label>
-            <input type="text" name="username" placeholder="Username"><br>
-            <label for="password"></label>
-            <input type="password" name="password" placeholder="password"><br>
-            <button>login</button>
-        </section>
-        </form>
-    </main>
 
+            <button id="facebook"><i class="fa-brands fa-facebook-f"></i>Login with facebook</button><br>
+            <button id="twitter"><i class="fa-brands fa-twitter"></i>login with twitter</button><br>
+            <button id="google"><i class="fa-brands fa-google"></i>login with google+</button><br>
+        </section>
+        <div id="beetwinSide">
+            <span href="">or</span>
+            <div id="toPdash"></div>
+            <div id="bottomDash"></div>
+        </div>
+        <section id="rightSide">
+            <form action="#">
+                 <label for="usernam"></label>
+                <input type="text" name="username" placeholder="Username" id="Username" required><br>
+                <label for="password"></label>
+                <input type="password" name="password" placeholder="password" id="password" required><br>
+                <button id="loginButton">Login</button>
+        </section>
+
+        </form>
+
+    </main>
+    <div id="footerOptions">
+        <div id="leftOption">Sign up</div>
+        <div id="rightOption">Forget password</div>
+    </div>
 </body>
 
 </html>
